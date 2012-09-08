@@ -1,4 +1,4 @@
-flask-coffee2js
+.flask-coffee2js
 ===============
 
 A small Flask extension that makes it easy to use CoffeeScript with your Flask application.
@@ -26,7 +26,7 @@ You can activate it by calling the `coffee2js` function with your Flask app as a
 
 This will intercept the request to `js_folder` and compile de file if is necesary using the files from `coffee_folder`.
 
-When you deploy your app you might not want to accept the overhead of checking the modification time of your `.coffee` and `.jss` files on each request. A simple way to avoid this is wrapping the coffee2js call in an if statement:
+When you deploy your app you might not want to accept the overhead of checking the modification time of your `.coffee` and `.js` files on each request. A simple way to avoid this is wrapping the coffee2js call in an if statement:
 
     if app.debug:
         from flaskext.coffee2js import coffee2js
