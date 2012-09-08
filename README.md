@@ -8,7 +8,7 @@ A small Flask extension that makes it easy to use CoffeeScript with your Flask a
 
 ### Install with PIP
 
-    pip install coffee2js
+    pip install flask-coffee2js
 
 
 ## Usage
