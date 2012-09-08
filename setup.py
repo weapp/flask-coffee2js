@@ -10,7 +10,7 @@ Links
 
 * `documentation <https://github.com/weapp/flask-coffee2js>`_
 * `development version
-  <https://github.com/weapp/flask-coffee2js`_
+  <https://github.com/weapp/flask-coffee2js>`_
 
 
 """
