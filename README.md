@@ -1,4 +1,4 @@
-.flask-coffee2js
+flask-coffee2js
 ===============
 
 A small Flask extension that makes it easy to use CoffeeScript with your Flask application.
@@ -8,13 +8,7 @@ A small Flask extension that makes it easy to use CoffeeScript with your Flask a
 
 ### Install with PIP
 
-    pip install -e git+git@github.com:weapp/flask-coffee2js.git#egg=flask-coffee2js
-
-
-### Install with setup.py
-
-    git clone https://github.com/weapp/flask-coffee2js.git
-    python setup.py install
+    pip install coffee2js
 
 
 ## Usage
